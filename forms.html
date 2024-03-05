@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <form action="processing.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="type" name="name" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email"name="email"id="email" placeholder="zotelmabiria@gmail.com">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password"name="password">
+            <br>
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file" accept=".pdf">
+            <br>
+            <input type="checkbox" id="" value="I am a student">
+            <label for="student">I am a student</label>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="male">Male</label> 
+            <input type="radio" id="gender" name="gender"value="Female">
+            <label for="female">Female</label>
+            <br>
+            <label id="car">Select a Car Model: </label>
+            <select id="car"name="car">
+                <option value=""></option>
+                <option value="Toyota">Toyota</option>
+                <option value="Vitz">Vitz</option>
+                <option value="Nissan">Nissan</option>
+            </select>
+            <br>
+            <textarea id="bio" name="bio" rows="10" cols="25" maxlength="250">
+            Type in your bio.
+            </textarea>
+            <input type="submit" value="Save Detail">
+            <br>
+            <label id="logo">Upload image:</label>
+            <br>
+            <input type="image" id="image" name="image" placeholder =<img src="IMG/River.jpeg" height="200" width="200" accept="image/*">
+
+        </form>
+    </body>
+</html>
