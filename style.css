@@ -1,0 +1,41 @@
+p{
+color: red;
+font-size: 60px;
+}
+
+#green{
+   color: green;
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSans', Arial, sans-serif;
+}
+
+.red{
+   color: red;
+   font-size: 45px;
+   font-family: 'Segoe Uľ, Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid brown;
+}
+
+.container img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height:0 auto;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
